@@ -2,7 +2,7 @@
 // Intermediate Level
 // This Code is made for the Adding and Deleting of Task 
 // Functions ARE: "deleteTask" AND "listTasks"
-// Work By Bettye Taylor 
+// Work By Bettye Taylor   
 
 // ALL WORK THAT IS NOT "deleteTask" AND "listTasks" WAS MADE BY BETTYE TAYLOR
 // AS AN THEORETICAL LINE OF CODE FOR THE TESTING THIS PROJECT 
