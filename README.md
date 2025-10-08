@@ -9,3 +9,10 @@ This documentation gives a quick overview of this project and what went into it 
 // About Code documentation //
 
 Further documentation on programming and task functions are left inside the comments of the code. In order to further understand the code, look through the comments that I have left behind. These comments will explain how the code works and what errors might still be in the project as a whole.
+
+// Work for Prairie State College
+// Class: ITPRG-144-INLS: C++ Programming I
+// Professor: Dr. Nichelle Manuel
+// Student: Bettye J Taylor 
+// Year 2023
+
