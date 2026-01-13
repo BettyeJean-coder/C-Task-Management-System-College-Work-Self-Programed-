@@ -18,7 +18,7 @@ Further documentation on programming and task functions are left inside the comm
 
 // Student: Bettye J Taylor 
 
-// Year 2023
+// Year 2023 FALL SEMESTER
 
-// Imporant Update For Bug Fixes and Uncompleted Work //
+// Imporant Update For Bug Fixes and Uncompleted Work  SPRING 2026 //
 
