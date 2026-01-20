@@ -22,9 +22,13 @@ Further documentation on programming and task functions are left inside the comm
 
 // Imporant Update For Bug Fixes and Uncompleted Work  SPRING 2026 //
 // BUG FIXES MADE TO THE COMPILE ERRORS
+
 // CLEANER CODE WITH OPTIMIZATION: MINOR CHANGES FOR COMMENTS AND FORMATTING
+
 // MAJOR CHANGES TO THE "MAIN" FUNCTION FOR USER INPUT
+
 // BETTYE TAYLOR
+
 // WORK TIME: 1 HOUR
 
 
