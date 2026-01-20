@@ -1,15 +1,20 @@
 // WORK HERE IS MADE FOR THE "Delete Task Function"
 // Intermediate Level
 // This Code is made for the Adding and Deleting of Task 
-// Functions ARE: "deleteTask" AND "listTasks"
-// Work By Bettye Taylor   
+// Functions ARE: "deleteTask" AND "listTask"
+// Work By Bettye Taylor 
 
-// ALL WORK THAT IS NOT "deleteTask" AND "listTasks" WAS MADE BY BETTYE TAYLOR
+// PRAIRE STATE COLLEGE
+// COURSE: C++ PROGRAMMING: ITPRG-144-INLS
+// MADE FOR MODERN C++ STANDARDS C++11 AND ABOVE 
+
+// ALL WORK THAT IS NOT "deleteTask" AND "listTask" WAS MADE BY BETTYE TAYLOR
 // AS AN THEORETICAL LINE OF CODE FOR THE TESTING THIS PROJECT 
 
 #include <iostream>
 #include <vector>
 #include <string>
+#include <limits>
 
 using namespace std;
 // ALL ABOVE IS NEEDED FOR PROJECT TO WORK (NOTE IS ADDED IF OTHERS WORK WITH THIS CODE)
@@ -39,7 +44,7 @@ private:
         if (taskId >= 1 && static_cast<size_t>(taskId) <= tasks.size())
         {
             tasks.erase(tasks.begin() + taskId - 1);
-            cout << "Task with ID " << taskId << "deleted successfully.\n";
+            cout << "Task with ID " << taskId << " deleted successfully.\n";
         } else {
             cout << "Task with ID" << taskId << "not found.\n";
         }
@@ -73,7 +78,7 @@ void displayTaskDetails(const Task& task) const {
 };
 
 // USER INPUT (THEORETICAL LINE OF CODE FOR THE TESTING THIS PROJECT)
-// FUCTIONS USED FROM BEFORE "deleteTask" AND "listTasks"
+// FUCTIONS USED FROM BEFORE "deleteTask" AND "listTask"
 int main() {
     TaskManager taskManager;
 // MAIN GUI
@@ -87,14 +92,16 @@ int main() {
         cout << "Enter your choice: "; // SOME BUGS WITH THIS FUNCTION FUTHER WORK MAY BE NEEDED 
         cin >> choice;
 
-        switch (choice) {
-            case 1 : {
-                std::string title, description;
+        switch (choice) { // IMPLEMENTATION OF SWITCH CASE WITH NEW 2026 UPDATES // 
+            case 1 : { 
+                std::string title, description; // INPORANT BUG TO STOP COMOPILE ERRORS // 
                 cout << "Enter task title: ";
-                cin.ignore();
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
                 getline(cin, title);
+
                 cout << "Enter task description:";
                 getline(cin, description);
+
                 taskManager.addTask(title, description);
                 break;
 
@@ -126,3 +133,10 @@ int main() {
 // YEAR 2023
 // FALL SEMESTER
 // TIME OF WORK: 4-5 HOURS 
+
+// UPLDATE TO GITHUB 2026 BUG FIXES 
+// BUG FIXES MADE TO THE COMPILE ERRORS
+// CLEANER CODE WITH OPTIMIZATION: MINOR CHANGES FOR COMMENTS AND FORMATTING
+// MAJOR CHANGES TO THE "MAIN" FUNCTION FOR USER INPUT
+// BETTYE TAYLOR
+// WORK TIME: 1 HOUR
