@@ -86,17 +86,28 @@ int main() {
     do {
         cout << "\n Task Management System \n";
         cout << "1. Add Task \n"; 
-        cout << "2. Delete Task \n";
+        cout << "2. Delete Task (FOR TASK ID ADD THE NUMBER OF THE TASK IN THE LIST) \n"; // MAJOR CHANGE HERE FOR USER INPUT 
         cout << "3. List Tasks \n";
         cout << "4. Exit \n";
         cout << "Enter your choice: "; // SOME BUGS WITH THIS FUNCTION FUTHER WORK MAY BE NEEDED 
+
         cin >> choice;
+
+        if(cin.fail()) {
+            cin.clear(); // clear the fail state
+            cin.ignore(numeric_limits<streamsize>::max(), '\n'); // DELETE INVALID INPUT
+            cout << "Invalid input. Please enter a numeric choice.\n";
+            continue;
+        }
+
 
         switch (choice) { // IMPLEMENTATION OF SWITCH CASE WITH NEW 2026 UPDATES // 
             case 1 : { 
-                std::string title, description; // INPORANT BUG TO STOP COMOPILE ERRORS // 
-                cout << "Enter task title: ";
+                string title, description; // INPORANT BUG TO STOP COMOPILE ERRORS // 
+
                 cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+                cout << "Enter task title: ";
                 getline(cin, title);
 
                 cout << "Enter task description:";
@@ -108,8 +119,18 @@ int main() {
             }
             case 2: {
                 int taskId;
+
                 cout << "Enter the ID of the task to delete: ";
                 cin  >> taskId; 
+
+                if(cin.fail()) {
+                    cin.clear(); // clear the fail state
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n'); // DELETE INVALID INPUT
+                    cout << "Invalid input. Please enter a numeric task ID.\n";
+                    break;
+                }
+
+
                 taskManager .deleteTask(taskId);
                 break;
             }
