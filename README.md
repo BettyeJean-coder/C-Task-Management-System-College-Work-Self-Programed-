@@ -10,7 +10,7 @@ This documentation gives a quick overview of this project and what went into it 
 
 Further documentation on programming and task functions are left inside the comments of the code. In order to further understand the code, look through the comments that I have left behind. These comments will explain how the code works and what errors might still be in the project as a whole.
 
-// Work for Prairie State College
+// Work for Prairie State College  
 
 // Class: ITPRG-144-INLS: C++ Programming 
 
@@ -18,7 +18,7 @@ Further documentation on programming and task functions are left inside the comm
 
 // Student: Bettye J Taylor 
 
-// Year 2023 FALL SEMESTER
+// Year 2023 FALL SEMESTER 
 
 // Imporant Update For Bug Fixes and Uncompleted Work  SPRING 2026 //
 
@@ -28,8 +28,6 @@ Further documentation on programming and task functions are left inside the comm
 
 // MAJOR CHANGES FOR USER INPUT FOR DELETING TASKS: THIS WAS CHANGED TO STOP REPEATING OUTPUT 
 
-// BETTYE TAYLOR
-
-// WORK TIME: 1 HOUR
+// WORK TIME: 1 HOUR FOR ALL UPDATES 
 
 
